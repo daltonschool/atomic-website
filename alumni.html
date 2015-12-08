@@ -1,32 +1,31 @@
-<!--
-When you see the code I wrote...
-https://www.youtube.com/watch?v=CXmp1hLK0tY&t=105
--->
+<html>
 
-<html style="background-color: #b0c4de;">
-
-<head onload="if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- window.location.replace("http://quantum.dalton.org/mobile.html");
-
-}">
+<head>
   <link rel="shortcut icon" href="sm.ico">
     <meta charset="utf-8">
     <title>Atomic Theory</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./bootstrap.css" media="screen">
-    <link href="fontawesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="bootswatch.min.css">
+    <link href="fontawesome.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
       <script src="../bower_components/respond/dest/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="http://code.onion.com/fartscroll.js"></script>
-    <script>
-//      fartscroll();
-      </script>
     <script>
 
+    var evW = 0;
+    var evG = 0;
+    var evF = 0;
+    var spock = 0;
+
+    var spocks = new Array("spock.png", "spock.jpg");
+    var evWs = new Array("squirtle.png", "wartortle.png", "blastoise.png");
+    var evGs = new Array("bulbasaur.png", "ivysaur.png", "venusaur.png");
+    var evFs = new Array("charmander.png", "charmeleon.png", "charizard.png");
+
+    
      var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-23019901-1']);
       _gaq.push(['_setDomainName', "bootswatch.com"]);
@@ -40,18 +39,9 @@ https://www.youtube.com/watch?v=CXmp1hLK0tY&t=105
      })();
 
     </script>
-
-    <script type="text/javascript" src="konami.js">
-    </script>
-
-    <script>
-    var easter_egg = new Konami();
-    easter_egg.load("2048.html");
-    </script>
-
   </head>
 
-<body style="background-color: #F0F0F0;" onload="window.alrt('Atomic Theory is the best!!!');">
+<body>
 
 
   <!-- Navbar -->
@@ -97,22 +87,59 @@ https://www.youtube.com/watch?v=CXmp1hLK0tY&t=105
       </div>
     </div>
 
-    <center>
-    <div class="row">
-        <div class="col-lg-12">
 
-              <h1 style="font-size: 80px;">Team 4174</h1>
-              
-              <img src="atomic.png" height="300" width="300">
-              <p style="font-size: 30px;">Atomic Theory is an FTC Robotics team from the Dalton School in New York City.</p>
-              <p><a class="btn btn-primary btn-lg" href="about.html">Learn more</a></p>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="tables">Alumni</h1>
             </div>
 
+            <div class="bs-component">
+              <table class="table table-striped table-hover ">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th><!-- photo --></th>
+                    <th>Grad Year</th>
+                    <th>Interests</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  </tr>
+                  <tr>
+                    <td>Andrew</td>
+                    <td><image src="spock.png" height=100 width=100> </img></td>
+                    <td>2015</td>
+                    <td>Director of Alumni Relations</td>
+                  </tr>
+                  <tr>
+                    <td>Zach</td>
+                    <td><image src="kirk.png" height=100 width=100> </img></td>
+                    <td>2015</td>
+                    <td>Director of Media Outreach</td>
+                  </tr>
+                  <tr>
+                    <td>Dillon</td>
+                    <td><image src="kirk.png" height=100 width=100> </img></td>
+                    <td>2015</td>
+                    <td>Director of Supply</td>
+                  </tr>
+                  <tr>
+                    <td>Alex</td>
+                    <td><image src="kirk.png" height=100 width=100> </img></td>
+                    <td>2014</td>
+                    <td>The Dude</td>
+                  </tr>
+                  
+
+                </tbody>
+              </table> 
+            </div><!-- /example -->
+          </div>
         </div>
 
     </div>
-
-
 
 </body>
 
