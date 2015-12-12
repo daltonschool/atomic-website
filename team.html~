@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <title>Atomic Theory</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="../css/bootswatch.min.css">
-    <link href="../css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/bootswatch.min.css">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="../../bower_components/html5shiv/dist/html5shiv.js"></script>
-      <script src="../../bower_components/respond/dest/respond.min.js"></script>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
     <![endif]-->
     <script>
 
@@ -20,10 +20,10 @@
     var evF = 0;
     var spock = 0;
 
-    var spocks = new Array("http://www.atomictheory.xyz/img/spock.png", "http://www.atomictheory.xyz/img/spock.jpg");
-    var evWs = new Array("http://www.atomictheory.xyz/img/squirtle.png", "http://www.atomictheory.xyz/img/wartortle.png", "http://www.atomictheory.xyz/img/blastoise.png");
-    var evGs = new Array("http://www.atomictheory.xyz/img/bulbasaur.png", "http://www.atomictheory.xyz/img/ivysaur.png", "http://www.atomictheory.xyz/img/venusaur.png");
-    var evFs = new Array("http://www.atomictheory.xyz/img/charmander.png", "http://www.atomictheory.xyz/img/charmeleon.png", "http://www.atomictheory.xyz/img/charizard.png");
+    var spocks = new Array("img/img/spock.png", "img/spock.jpg");
+    var evWs = new Array("img/squirtle.png", "img/wartortle.png", "img/blastoise.png");
+    var evGs = new Array("img/bulbasaur.png", "img/ivysaur.png", "img/venusaur.png");
+    var evFs = new Array("img/charmander.png", "img/charmeleon.png", "img/charizard.png");
 
     
      var _gaq = _gaq || [];
@@ -48,8 +48,8 @@
   <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="/zh/" class="navbar-brand">原子论</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar">
+          <a href="/" class="navbar-brand">Atomic Theory</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -58,24 +58,36 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li>
-              <a href="about.html">关于</a>
+              <a href="about.html">About</a>
             </li>
             <li>
-              <a href="team.html">团队成员</a>
+              <a href="team.html">Team Members</a>
             </li>
             <li>
-              <a href="alumni.html">校友</a>
+              <a href="alumni.html">Alumni</a>
             </li>
             <li>
-              <a href="news.html">新闻</a>
+              <a href="news.html">News</a>
+            </li>
+            <li>
+              <a href="sponsors.html">Sponsors</a>
             </li>
             <li> 
-              <a href="contact.html">联系我们</a>
+              <a href="contact.html">Contact Us</a>
             </li>
           </ul>
 
-           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../team.html">English</a></li>
+<!-- Right navbar stuff -->
+<!--
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
+            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
+          </ul>
+
+        -->
+
+         <ul class="nav navbar-nav navbar-right">
+            <li><a href="/zh/team.html">中文</a></li>
           </ul>
 
         </div>
@@ -103,79 +115,79 @@
                 <tbody>
                   </tr>
                   <tr>
-                    <td>孙玪德</td>
-                    <td><image src="http://www.atomictheory.xyz/img/spock.png" height=100 width=100> </img></td>
+                    <td>Nathaniel</td>
+                    <td><image src="img/spock.png" height=100 width=100> </img></td>
                     <td>Senior (Captain)</td>
                     <td>Will Findley</td>
                   </tr>
                  <tr>
-                    <td>小朋友</td>
-                    <td><image src="http://www.atomictheory.xyz/img/davis.png" height=100 width=100> </img></td>
+                    <td>Davis</td>
+                    <td><image src="img/davis.png" height=100 width=100> </img></td>
                     <td>Junior</td>
                     <td>Coding</td>
                   </tr>
                   <tr>
-                    <td>红色的头发</td>
-                    <td><image src="http://www.atomictheory.xyz/img/alex.png" height=100 width=100> </img></td>
+                    <td>Alex</td>
+                    <td><image src="img/alex.png" height=100 width=100> </img></td>
                     <td>Junior</td>
                     <td>Coffee</td>
                   </tr>
                   <tr>
-                    <td></td>
-                    <td><image src="http://www.atomictheory.xyz/img/leo.png" height=100 width=100> </img></td>
+                    <td>Leo</td>
+                    <td><image src="img/leo.png" height=100 width=100> </img></td>
                     <td>Junior</td>
                     <td>Building</td>
                   </tr>
                   <tr>
                     <td>Maisie</td>
-                    <td><image src="http://www.atomictheory.xyz/img/maisie.png" height=100 width=100> </img></td>
+                    <td><image src="img/maisie.png" height=100 width=100> </img></td>
                     <td>Junior</td>
                     <td>Pigs, Dental Hygiene</td>
                   </tr>
                   <tr>
                     <td>Dylan</td>
-                    <td><image src="http://www.atomictheory.xyz/img/dylan.png" height=100 width=100> </img></td>
+                    <td><image src="img/dylan.png" height=100 width=100> </img></td>
                     <td>Junior</td>
                     <td>Building</td>
                   </tr>
                   <tr>
                     <td>Davey</td>
-                    <td><image src="http://www.atomictheory.xyz/img/davey.png" height=100 width=100> </img></td>
+                    <td><image src="img/davey.png" height=100 width=100> </img></td>
                     <td>Sophomore</td>
                     <td>Ceramics</td>
                   </tr>
                   <tr>
                     <td>Michela</td>
-                    <td><image src="http://www.atomictheory.xyz/img/michela.png" height=100 width=100> </img></td>
+                    <td><image src="img/michela.png" height=100 width=100> </img></td>
                     <td>Junior</td>
                     <td>Fishing</td>
                   </tr>
                   <tr>
                     <td>Robert</td>
-                    <td><image src="http://www.atomictheory.xyz/img/robert.png" height=100 width=100> </img></td>
+                    <td><image src="img/robert.png" height=100 width=100> </img></td>
                     <td>Junior</td>
                     <td>Building</td>
                   </tr>
                   
 
                   <tr>
-                    <td>米萨瓦</td>
-                    <td><image id="msw" src="http://www.atomictheory.xyz/img/squirtle.png" height=100 width=100 onclick="if(evW!=2) evW++; document.getElementById('msw').src=evWs[evW%3];"> </img></td>
+                    <td>Michael Sloan "MSW" Warren</td>
+                    <td><image id="msw" src="img/squirtle.png" height=100 width=100 onclick="if(evW!=2) evW++; document.getElementById('msw').src=evWs[evW%3];"> </img></td>
                     <td>Coach</td>
                   </tr>
                   <tr>
                     <td>Charlie "Chuckles" Forster</td>
-                    <td><image id="chuck" src="http://www.atomictheory.xyz/img/charmander.png" height=100 width=100 onclick="if(evF!=2) evF++; document.getElementById('chuck').src=evFs[evF%3];"> </img></td>
+                    <td><image id="chuck" src="img/charmander.png" height=100 width=100 onclick="if(evF!=2) evF++; document.getElementById('chuck').src=evFs[evF%3];"> </img></td>
                     <td>CS Teacher</td>
                   </tr>
                   <tr>
                     <td>Rob "Rob-bob-bot" Quatrone</td>
-                    <td><image id="rob" src="http://www.atomictheory.xyz/img/bulbasaur.png" height=100 width=100 onclick="if(evG!=2) evG++; document.getElementById('rob').src=evGs[evG%3];"> </img></td>
+                    <td><image id="rob" src="img/bulbasaur.png" height=100 width=100 onclick="if(evG!=2) evG++; document.getElementById('rob').src=evGs[evG%3];"> </img></td>
                     <td>Science Teacher</td>
                   </tr>
                   <tr> 
                     <td>Gordon "Gordie" Campbell</td>
-                    <td><image src="http://www.atomictheory.xyz/img/oak.png" height=100 width=100> </img></td>
+                    <td><image src="img/oak.png" height=100 width=100> </img></td>
                     <td>Chair, Dalton Engineering Department</td>
                 </tbody>
               </table> 
