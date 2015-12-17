@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <title>Atomic Theory</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="/css/bootswatch.min.css">
-    <link href="/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/bootswatch.min.css">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -48,9 +48,6 @@
           <ul class="nav navbar-nav">
             <li>
               <a href="about.html">About</a>
-            </li>
-            <li>
-            <a href="robot.html">Our Robot</a>
             </li>
             <li>
               <a href="team.html">Team Members</a>
@@ -99,7 +96,7 @@
             <div class="bs-component">
 
             <p class="lead">
-              We're Atomic Theory, an FTC robotics out of the Dalton School in New York NY.
+              We're Atomic Theory, and FTC robotics out of the Dalton School in New York NY.
             </p>
               
 <p>Our team is run slightly differently from others. We operate as a class at The Dalton School. This means that we meet twice a week during school to discuss team strategy and fundraising. Additionally, we have build sessions on Mondays, Thursdays, and Fridays after school and on Saturdays when we work on building and programming the robot.</p>
@@ -130,8 +127,7 @@
         </div>
 
     </div>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+
 </body>
 
 </html>
